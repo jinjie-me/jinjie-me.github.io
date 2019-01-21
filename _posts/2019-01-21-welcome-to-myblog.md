@@ -11,6 +11,8 @@ published: true
 
 # 今天学习了如何使用 `jekyll`搭建一个博客系统
 
+<!–-break-–>
+
 ## 1. 安装ruby,依赖于ruby环境
 
 - brew install ruby [ruby环境下载](https://www.ruby-lang.org/en/downloads/)
@@ -21,7 +23,7 @@ published: true
 
 - gem sources --add https://gems.ruby-china.org/  --remove https://rubygems.org/
 
-## 3. 创建站点 
+## 3. 创建站点
 
 - jekyll new myblog(名称)
 
@@ -36,11 +38,11 @@ published: true
 ## 6. 文件配置
 
 ```bash
-    _config.yml : 
+    _config.yml :
     选择配置 :
-    title(网站标题) 
-    email(邮箱) 
-    descripation(描述) 
+    title(网站标题)
+    email(邮箱)
+    descripation(描述)
     baseurl(可以部署二级path)
     创建_drafts目录,存放未发布草稿
       _site: 存放源代码
