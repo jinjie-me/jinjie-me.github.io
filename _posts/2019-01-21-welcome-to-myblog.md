@@ -37,17 +37,17 @@ published: true
 
 ## 6. 文件配置
 
-```bash
-    _config.yml :
+1. _config.yml :
     选择配置 :
     title(网站标题)
     email(邮箱)
     descripation(描述)
     baseurl(可以部署二级path)
-    创建_drafts目录,存放未发布草稿
+
+2. 创建_drafts目录,存放未发布草稿
       _site: 存放源代码
-    jekyll build 在_site中创建静态资源
-```
+3. jekyll build 在_site中创建静态资源
+
 
 ## 7. 部署域名可访问
 
